@@ -3,9 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/MyProject.iml" filepath="$PROJECT_DIR$/.idea/MyProject.iml" />
-      <module fileurl="file://$PROJECT_DIR$/zdp/zdp.iml" filepath="$PROJECT_DIR$/zdp/zdp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/zdpImpl/zdpImpl.iml" filepath="$PROJECT_DIR$/zdpImpl/zdpImpl.iml" />
-      <module fileurl="file://$PROJECT_DIR$/zdpP/zdpP.iml" filepath="$PROJECT_DIR$/zdpP/zdpP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zdp/com.zdp.iml" filepath="$PROJECT_DIR$/zdp/com.zdp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zdpImpl/com.zdpImpl.iml" filepath="$PROJECT_DIR$/zdpImpl/com.zdpImpl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zdpP/com.zdpP.iml" filepath="$PROJECT_DIR$/zdpP/com.zdpP.iml" />
     </modules>
   </component>
 </project>

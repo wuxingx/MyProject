@@ -2,6 +2,9 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="com.zdp" target="1.5" />
+      <module name="com.zdpImpl" target="1.5" />
+      <module name="com.zdpP" target="1.5" />
       <module name="zdp" target="1.5" />
       <module name="zdpImpl" target="1.5" />
       <module name="zdpP" target="1.5" />
