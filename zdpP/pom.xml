@@ -9,5 +9,46 @@
     <packaging>pom</packaging>
     <name>com.zdpP</name>
     <url>http://maven.apache.org</url>
+    <modules>
+        <module>../zdp</module>
+        <module>../zdpImpl</module>
+    </modules>
+    <properties>
+        <spring.version>4.0.2.RELEASE</spring.version>
+        <project.version>1.4</project.version>
+    </properties>
+    <dependencies>
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-context</artifactId>
+        <version>${spring.version}</version>
+    </dependency>
+    </dependencies>
+    <build>
+        <pluginManagement>
+            <plugins>
 
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-resources-plugin</artifactId>
+                    <version>2.6</version>
+                    <configuration>
+                        <encoding>UTF-8</encoding>
+                    </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>2.5.1</version>
+                    <configuration>
+                        <encoding>UTF-8</encoding>
+                        <source>1.7</source>
+                        <target>1.7</target>
+                    </configuration>
+                </plugin>
+
+            </plugins>
+        </pluginManagement>
+    </build>
 </project>

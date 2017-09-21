@@ -1,6 +1,6 @@
 package com.zdp.services;
 
-public interface testService {
+public interface TestService {
 
     String getMsg();
 }

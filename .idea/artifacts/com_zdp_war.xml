@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="com.zdp:war">
+    <output-path>$PROJECT_DIR$/zdp/target</output-path>
+    <root id="archive" name="com.zdp-1.4.1.war">
+      <element id="artifact" artifact-name="com.zdp:war exploded" />
+    </root>
+  </artifact>
+</component>
