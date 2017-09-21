@@ -16,6 +16,6 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.version>1.4</project.version>
-    </properties>
+    </properties>`
     <url>http://maven.apache.org</url>
 </project>
