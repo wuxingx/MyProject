@@ -1,8 +1,11 @@
 package com.zdp.service.impl;
 
 import com.zdp.service.TestService;
+import org.springframework.stereotype.Service;
 
-public class TestServiceImpl implements TestService{
+
+@Service("testService")
+public class TestServiceImpl implements TestService {
 
 
     public String getMsg() {
