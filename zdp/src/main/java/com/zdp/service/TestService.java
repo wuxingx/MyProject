@@ -1,4 +1,4 @@
-package com.zdp.services;
+package com.zdp.service;
 
 public interface TestService {
 

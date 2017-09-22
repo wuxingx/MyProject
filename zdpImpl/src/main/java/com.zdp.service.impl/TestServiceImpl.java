@@ -1,6 +1,6 @@
 package com.zdp.service.impl;
 
-import com.zdp.services.TestService;
+import com.zdp.service.TestService;
 
 public class TestServiceImpl implements TestService{
 
