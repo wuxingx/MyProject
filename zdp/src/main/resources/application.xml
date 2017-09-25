@@ -12,9 +12,9 @@
     <dubbo:application name="dubbo-a-customer"/>
 
     <!-- 这里使用的注册中心是zookeeper -->
-    <dubbo:registry address="zookeeper://120.77.46.14:2181" client="zkclient"/>
+    <dubbo:registry address="120.77.46.14:2181" protocol="zookeeper"/>
 
     <!-- 从注册中心中查找服务 -->
-    <dubbo:reference id="TestService" interface="com.zdp.service.TestService"/>
+    <dubbo:reference id="testService" interface="com.zdp.service.TestService" timeout="300000"/>
 
 </beans>

@@ -21,6 +21,16 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.0.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.0.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.0.2.RELEASE" />
+          <element id="archive" name="com.zdpImpl-1.4.1.jar">
+            <element id="module-output" name="com.zdpImpl" />
+          </element>
+          <element id="library" level="project" name="Maven: org.springframework:spring-oxm:4.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.apache.zookeeper:zookeeper:3.3.6" />
+          <element id="library" level="project" name="Maven: jline:jline:0.9.94" />
+          <element id="library" level="project" name="Maven: junit:junit:3.8.1" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.16" />
+          <element id="library" level="project" name="Maven: com.github.sgroschupf:zkclient:0.1" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.0.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.0.2.RELEASE" />
         </element>
